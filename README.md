@@ -1,6 +1,18 @@
-# 
+# Jimmy Shen's GitHub Page
 
 
- [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/jmmshn?cardType=github&theme=github-dark&Background=73141400)](https://git.io/awesome-stats-card) 
+I'm an active contributor to some of the most popular Materials-informatics software including:
 
-[![](https://raw.githubusercontent.com/jmmshn/github-stats/master/generated/overview.svg#gh-dark-mode-only)]
+- [pymatgen](https://github.com/materialsproject/pymatgen)
+- [atomate](https://github.com/hackingmaterials/atomate)
+- [atomate2](https://github.com/materialsproject/atomate2)
+- [pymatgen-analysis-diffusion](https://github.com/materialsvirtuallab/pymatgen-analysis-diffusion)
+- [maggma](https://github.com/materialsproject/maggma)
+
+I'm also the lead developer for the following packages:
+
+- [pyrho](https://github.com/materialsproject/pyrho): Machine-learning pre-processing framework for periodic grid data.
+- [pymatgen-analysis-defects](https://github.com/materialsproject/pymatgen-analysis-defects):
+Analysis framework for point-defects in semiconductors.
+
+I've also been dabbling in flexible optimization frameworks using the Julia Programming language in the domain of Decentralized Finance.
