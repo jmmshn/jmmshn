@@ -1,8 +1,5 @@
 # Jimmy Shen's GitHub Page
 
-![Jimmy's's GitHub stats](https://github-readme-stats.vercel.app/api?username=jmmshn&show_icons=true)
-
-
 <a href="https://orcid.org/0000-0002-2743-7531">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
 https://orcid.org/0000-0002-2743-7531
