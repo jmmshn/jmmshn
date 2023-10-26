@@ -6,7 +6,7 @@ https://orcid.org/0000-0002-2743-7531
 </a>
 
 
-I'm an active contributor to some of the most popular Materials-informatics software including:
+I'm an active contributor to some of the most popular materials-informatics software including:
 
 - [pymatgen](https://github.com/materialsproject/pymatgen)
 - [atomate](https://github.com/hackingmaterials/atomate)
