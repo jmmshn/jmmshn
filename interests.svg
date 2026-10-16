@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 250" width="840" height="250" role="img" aria-labelledby="t d">
+  <title id="t">What I like to work on</title>
+  <desc id="d">Four areas: materials from first principles, workflows at scale, machine learning meets simulation, and tools for coding agents.</desc>
+  <style>
+    :root { --bg: #ffffff; --card: #f6f8fa; --edge: #d0d7de; --ink: #1f2328; --muted: #59636e; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d1117; --card: #161b22; --edge: #30363d; --ink: #e6edf3; --muted: #9198a1; }
+    }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .bg { fill: var(--bg); }
+    .card { fill: var(--card); stroke: var(--edge); }
+    .h { fill: var(--ink); font-size: 16px; font-weight: 600; }
+    .p { fill: var(--muted); font-size: 13px; }
+    .s { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect class="bg" width="840" height="250" rx="12"/>
+
+  <!-- 1. Materials from first principles: crystal lattice with a vacancy -->
+  <g transform="translate(10 10)">
+    <rect class="card" width="195" height="230" rx="10"/>
+    <g transform="translate(62 28)" class="s" stroke="#8250df">
+      <path d="M0 0H70M0 35H70M0 70H70M0 0V70M35 0V70M70 0V70" stroke-opacity=".45"/>
+      <g fill="#8250df" stroke="none">
+        <circle cx="0" cy="0" r="6"/><circle cx="35" cy="0" r="6"/><circle cx="70" cy="0" r="6"/>
+        <circle cx="0" cy="35" r="6"/><circle cx="70" cy="35" r="6"/>
+        <circle cx="0" cy="70" r="6"/><circle cx="35" cy="70" r="6"/><circle cx="70" cy="70" r="6"/>
+      </g>
+      <circle cx="35" cy="35" r="6" stroke-dasharray="3 3"/>
+    </g>
+    <text class="h" x="97" y="138" text-anchor="middle">Materials</text>
+    <text class="p" x="97" y="166" text-anchor="middle">First-principles</text>
+    <text class="p" x="97" y="184" text-anchor="middle">simulation, DFT and</text>
+    <text class="p" x="97" y="202" text-anchor="middle">defects in crystals</text>
+  </g>
+
+  <!-- 2. Workflows at scale: fan-out DAG -->
+  <g transform="translate(220 10)">
+    <rect class="card" width="195" height="230" rx="10"/>
+    <g transform="translate(57 28)" class="s" stroke="#0969da">
+      <path d="M12 35L68 8M12 35L68 35M12 35L68 62M68 8L72 8M68 62L72 62" stroke-opacity=".45"/>
+      <g fill="#0969da" stroke="none">
+        <rect x="0" y="27" width="16" height="16" rx="4"/>
+        <rect x="64" y="0" width="16" height="16" rx="4"/>
+        <rect x="64" y="27" width="16" height="16" rx="4"/>
+        <rect x="64" y="54" width="16" height="16" rx="4"/>
+      </g>
+    </g>
+    <text class="h" x="97" y="138" text-anchor="middle">Workflows</text>
+    <text class="p" x="97" y="166" text-anchor="middle">Pipelines that run</text>
+    <text class="p" x="97" y="184" text-anchor="middle">thousands of</text>
+    <text class="p" x="97" y="202" text-anchor="middle">calculations at once</text>
+  </g>
+
+  <!-- 3. ML meets simulation: network feeding a curve -->
+  <g transform="translate(430 10)">
+    <rect class="card" width="195" height="230" rx="10"/>
+    <g transform="translate(52 28)" class="s" stroke="#1a7f37">
+      <path d="M0 10L30 35M0 60L30 35M30 35L52 35" stroke-opacity=".45"/>
+      <path d="M52 60C62 60 66 10 76 10S90 60 90 60"/>
+      <g fill="#1a7f37" stroke="none">
+        <circle cx="0" cy="10" r="6"/><circle cx="0" cy="60" r="6"/><circle cx="30" cy="35" r="7"/>
+      </g>
+    </g>
+    <text class="h" x="97" y="138" text-anchor="middle">ML × simulation</text>
+    <text class="p" x="97" y="166" text-anchor="middle">Letting models and</text>
+    <text class="p" x="97" y="184" text-anchor="middle">agents decide what</text>
+    <text class="p" x="97" y="202" text-anchor="middle">to simulate next</text>
+  </g>
+
+  <!-- 4. Agent tooling: terminal prompt -->
+  <g transform="translate(640 10)">
+    <rect class="card" width="190" height="230" rx="10"/>
+    <g transform="translate(55 28)" class="s" stroke="#bc4c00">
+      <rect x="0" y="0" width="80" height="70" rx="8" stroke-opacity=".45"/>
+      <path d="M16 26L28 36L16 46M36 48H56"/>
+    </g>
+    <text class="h" x="95" y="138" text-anchor="middle">Agent tooling</text>
+    <text class="p" x="95" y="166" text-anchor="middle">Terminal-first tools</text>
+    <text class="p" x="95" y="184" text-anchor="middle">that let coding agents</text>
+    <text class="p" x="95" y="202" text-anchor="middle">work together</text>
+  </g>
+</svg>
